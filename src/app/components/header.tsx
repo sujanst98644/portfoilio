@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <>  <header className="flex justify-between m-3">
-        <div className="font-semibold text-xl">
+    <>  <header className="flex justify-between m-[0_0_151px_0]">
+        <div className="font-semibold text-[42px] ">
             SUJAN THAPA
         </div>
           <div>
@@ -17,10 +17,10 @@ function Header() {
           </div>
         </header>
         
-        <section className="flex flex-row justify-center">
+        <section className="flex flex-row justify-between">
         <div>
-        <h1 className="font-sora font-semibold text-wrap text-7xl tracking-tighter w-85">
-              SOFTWARE DEVELOPER & DESIGNER
+        <h1 className="font-sora font-semibold text-[100px] tracking-[-4px] w-85 spacing-y-0">
+            SOFTWARE<br/>DEVELOPER<br/>&<br/>DESIGNER
         </h1>
         <p>Talk With SUJAN</p>
         <button className=" border border-black shadow-xl rounded-full px-2 py-1">Say Hello</button>
@@ -43,3 +43,5 @@ function Header() {
 }
 
 export default Header
+
+
