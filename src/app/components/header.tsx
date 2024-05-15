@@ -1,13 +1,15 @@
 import React from 'react'
+import {FaArrowAltCircleRight} from "react-icons/fa";
+
 
 function Header() {
   return (
-    <>  <header className="flex justify-between m-[0_0_151px_0]">
+    <>  <header className="flex justify-between m-[0_0_120px_0]">
         <div className="font-semibold text-[42px] ">
             SUJAN THAPA
         </div>
           <div>
-              <ul className="flex space-x-10">
+              <ul className="flex space-x-10 py-5">
                   <li>Home</li>
                   <li>Services</li>
                   <li>Benefits</li>
@@ -19,11 +21,11 @@ function Header() {
         
         <section className="flex flex-row justify-between">
         <div>
-        <h1 className="font-sora font-semibold text-[100px] tracking-[-4px] w-85 spacing-y-0">
+        <h1 className="font-sora font-semibold text-[100px] tracking-[-4px] w-85 leading-none">
             SOFTWARE<br/>DEVELOPER<br/>&<br/>DESIGNER
         </h1>
-        <p>Talk With SUJAN</p>
-        <button className=" border border-black shadow-xl rounded-full px-2 py-1">Say Hello</button>
+        <p className='text-[36px]'>Talk With SUJAN</p>
+        <button className="flex flex-row border border-black shadow-xl rounded-[50px] px-[23px] py-3 text-[20px] font-semibold font-sora">Say Hello <FaArrowAltCircleRight/></button>
         </div>
         <div>
             <img src='/vercel.svg' className="w-40"/>

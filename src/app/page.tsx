@@ -12,7 +12,7 @@ import Footer from './components/footer';
 
 export default function Home() {
   return (
-    <main className="flex flex-col mx-[6.81vh] font-sora">
+    <main className="flex flex-col mx-[98px] font-sora">
       <Header/>
       <Aboutme/>
       <Recentworks/>
