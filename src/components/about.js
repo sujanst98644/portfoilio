@@ -12,7 +12,7 @@ const About = () => {
                   </div>
                   
                   <div className="flex flex-col min-w-[50vw] px-8 pt-12 mr-4 items-start">
-                    <h2 className=" text-8xl font-bold mb-12 rounded-xl max-w-70 pl-2 tracking-tighter">About Me</h2>
+                    <h2 className=" lg:text-8xl font-bold mb-12 rounded-xl max-w-70 pl-2 tracking-tighter text-4xl" >About Me</h2>
                     <p className="text-lg text-gray-800 font-sora m-3 ">
                       Welcome to my portfolio! I&apos;m Dikshyanta, a passionate web developer with expertise in<span className="text-gray-700"> frontend technologies such as React,
                       and backend technologies like Node.js.</span> I have a keen interest in building user-friendly and responsive web applications that 
