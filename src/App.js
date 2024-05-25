@@ -10,10 +10,12 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className={`min-h-screen flex flex-col justify-center bg-[#CDE8E5]` }>
+    <div className={`min-h-screen flex flex-col justify-center bg-[#EEF7FF]` }>
       <Header/>
+      <div className="bg-[#CDE8E5]">
       <Services/>
       <Skills/>
+      </div>
       <Projects/>
       <Blogs/>
       <About/>
