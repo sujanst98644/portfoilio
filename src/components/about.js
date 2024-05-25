@@ -8,7 +8,7 @@ const About = () => {
                 <div className="flex flex-col md:flex-row justify-center items-center">
                   
                   <div className="pt-12">
-                  <img src="/vectorstock_47056634.svg" alt="About" className=" min-h-[15vh] sm:min-h-[25vh] min-w-[40vw] sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/8 h-auto my-4 sm:mx-2 rounded-full" />
+                  <img src={`${process.env.PUBLIC_URL}/vectorstock_47056634.svg`} alt="About" className=" min-h-[15vh] sm:min-h-[25vh] min-w-[40vw] sm:w-1/4 md:w-1/5 lg:w-1/6 xl:w-1/8 h-auto my-4 sm:mx-2 rounded-full" />
                   </div>
                   
                   <div className="flex flex-col pt-12 mr-4 items-start">

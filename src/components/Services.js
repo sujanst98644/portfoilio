@@ -28,7 +28,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/design.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/design.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">Web Design</p>
         </div>
@@ -37,7 +37,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/design.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/design.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">Database</p>
         </div>
@@ -46,7 +46,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/typer.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/typer.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">Deployment</p>
         </div>
@@ -55,7 +55,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/stars.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/stars.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">API</p>
         </div>
@@ -64,7 +64,7 @@ const Services = () => {
         <div className="flex justify-center items-center ">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/design.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/design.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">SEO</p>
         </div>
@@ -73,7 +73,7 @@ const Services = () => {
         <div className="flex justify-center items-center ">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/design.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/design.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">Data Entry</p>
         </div>
@@ -82,7 +82,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
         <div
           className="bg-[#4D869C] my-3 rounded w-52 h-72 shadow-xl bg-cover"
-          style={{ backgroundImage: "url('/design.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/design.jpg)`  }}
         >
           <p className="ml-3 mt-5 shadow-xl">Logo</p>
         </div>
