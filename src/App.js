@@ -14,6 +14,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Blogs/>
+      <About/>
     </div>
   );
 }
