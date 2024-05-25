@@ -28,7 +28,7 @@ export default function Header() {
       };
   return (
     <main className=" bg-[#7AB2B2] text-white p-[0_0_30px_0]">
-    <header className={`sticky top-0 z-50 py-3 px-3 ${scrolled ? 'transition-colors bg-white text-black duration-1000 ease-in-out ' : ''}`}>
+    <header className={`sticky top-0 z-50 py-3 px-20 ${scrolled ? 'transition-colors bg-white text-black duration-1000 ease-in-out ' : ''}`}>
           <nav className=" flex flex-col mt-3 md:order-1 justify-between ">
               <div className="flex flex-row justify-between items-center">
                   <div className="font-bold font-sora text-[23px] hover:underline hover:text-red-200">DIKSHYANTA LAMICHHANE</div>

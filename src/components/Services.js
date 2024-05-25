@@ -23,7 +23,7 @@ const Services = () => {
 
   return (
     <main className="my-5 text-white font-sora font-semibold text-2xl">
-      <h1 className="font-sora text-3xl font-semibold mb-4 text-black">SERVICES</h1>
+      <h1 className="mx-11 font-sora text-3xl font-semibold mb-4 text-black">SERVICES</h1>
       <Carousel responsive={responsive} infinite={true} autoPlaySpeed={1000}>
         <div className="flex justify-center items-center">
         <div
