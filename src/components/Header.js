@@ -65,7 +65,7 @@ export default function Header() {
       </header>
       <div className="p-10 flex flex-col md:flex-row items-center bg-cover justify-center m-[100px_0_0_0] lg:px-20">
           <div className="md:w-1/2 flex justify-center">
-              <img src='/1.jpg' alt={'picture1'} width={300} height={150} className='w-64 h-64 rounded-full shadow-slate-800'/>
+              <img src='./1.jpg' alt={'picture1'} width={300} height={150} className='w-64 h-64 rounded-full shadow-slate-800'/>
           </div>
           <div className="md:w-1/2 md:pl-8">
               <h2 className="text-5xl font-bold mb-4 font-sora">Hi! I am </h2>
