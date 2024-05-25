@@ -9,7 +9,7 @@ import { DiResponsive } from "react-icons/di";
 const Skills = () => {
 
   return (
-    <section id="skills" className="my-8 flex flex-col items-center text-black">
+    <section id="skills" className="my-8 flex flex-col items-center text-black ">
       <text x="50%" y="40%" dominantBaseline="middle" textAnchor="middle" className="text-xl font-bold sm:text-xl m-10">MY SKILLS</text>
 
       <ul className="flex flex-wrap gap-8 justify-center">

@@ -8,7 +8,7 @@ const Projects = () => {
     setIsExpanded(!isExpanded)
   }
   return (
-    <section className="my-20 flex flex-col items-center min-h-[40vh] sm:min-h-[70vh] text-black">
+    <section className="my-20 flex flex-col items-center min-h-[40vh] sm:min-h-[70vh] text-black ">
         <h2 className="text-3xl font-bold mb-16">SOME OF MY PROJECTS</h2>
         <div className="flex flex-wrap justify-center">
           <div className="flex">
